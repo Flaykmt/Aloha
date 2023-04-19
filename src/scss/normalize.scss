@@ -1,0 +1,24 @@
+@import "variable.scss";
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  color: $main-color;
+  font-family: Poppins;
+  font-weight: 400;
+}
+
+body {
+  max-width: 1920px;
+  margin: 0 auto;
+  width: 100%;
+  background-color: #ebf1eb;
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  width: 100%;
+}

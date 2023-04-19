@@ -1,0 +1,44 @@
+@media (max-width: 1314px) {
+  .title{
+    font-size: 50px;
+  }
+}
+@media (max-width: 1190px) {
+  .about__card{
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  .about__card:last-child{
+    flex-direction: column-reverse;
+  }
+}
+@media (max-width: 931px) {
+  .footer__content{
+    gap: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .title{
+    font-size: 40px;
+  }
+}
+@media (max-width: 931px) {
+  .footer__content-nav{
+    gap: 70px;
+  }
+}
+@media (max-width: 513px) {
+  .burger__menu{
+    display: flex;
+    align-items: center;
+  }
+  .header__nav{
+    display: none;
+  }
+  .card__1{
+    .title{
+      font-size: 25px;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+@import "variable.scss";
+.title {
+  font-size: $fz80;
+}
+
+.about__title {
+  font-size: $fz38;
+  margin-bottom: 45px;
+}
+
+.main__button {
+  border-radius: 3px;
+  padding: 10px 17px;
+  border: 2px solid $main-color;
+  font-size: $fz20;
+  transition: 0.4s;
+  &:hover {
+    background-color: $main-color;
+    color: #fff;
+  }
+}
